@@ -13215,7 +13215,8 @@ paths:
         type: safe
   /api/v2/usage/cost_by_org:
     get:
-      description: Get Cost Across Multi-Org Account.
+      description: Get Cost Across Multi-Org Account. Cost by org data for a given
+        month will become available no later than the 16th of the following month.
       operationId: GetCostByOrg
       parameters:
       - description: 'Datetime in ISO-8601 format, UTC, precise to month: `[YYYY-MM]`
